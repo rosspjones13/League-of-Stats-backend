@@ -9,7 +9,7 @@ You can see a video demonstration [here](https://www.youtube.com/watch?v=fZkHMzK
 
 ## Description
 
-Gives gym goers a place to track their workouts, check-in to a local gym, and find a gym buddy and connect with them through live messaging.
+A website to keep track of match history and form teams from a popular online video game League of Legends.
 
 ## To run this program:
 
