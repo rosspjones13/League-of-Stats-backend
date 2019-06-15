@@ -185,7 +185,7 @@ allUsers.each do |user|
     match = Match.create({
     user: user,
     champion_id: Faker::Number.between(1, champions.length),
-    kills: Faker::Number.between(0, 20),
+    kills: Faker::Number.between(1, 20),
     deaths: Faker::Number.between(0, 20),
     assists: Faker::Number.between(0, 20),
     result: resultRand.sample

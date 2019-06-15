@@ -1,25 +1,38 @@
-# README
+# League of Stats
+## Rails Server
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app was built on the Ruby on Rails framework, you can learn more about Ruby on Rails [here](https://guides.rubyonrails.org/).
 
-Things you may want to cover:
+## Demonstration
 
-* Ruby version
+You can see a video demonstration [here](https://www.youtube.com/watch?v=fZkHMzKdwTI&feature=youtu.be)
 
-* System dependencies
+## Description
 
-* Configuration
+Gives gym goers a place to track their workouts, check-in to a local gym, and find a gym buddy and connect with them through live messaging.
 
-* Database creation
+## To run this program:
 
-* Database initialization
+### Clone this repository and the client repository at:
 
-* How to run the test suite
+Gym Buddies JavaScript Client: [https://github.com/rosspjones13/League-of-Stats-frontend](https://github.com/rosspjones13/League-of-Stats-frontend).<br>
+Follow the steps to run the client.
 
-* Services (job queues, cache servers, search engines, etc.)
+### How to start the server:
 
-* Deployment instructions
+To create the seeded Postgres database, follow these steps:
 
-* ...
-# my_stats
+#### 1. `rails db:create`
+
+#### 2. `rails db:migrate`
+
+#### 3. `rails db:seed`
+
+Once the database is created run the following command:
+
+#### `rails start`
+
+This runs the api in a local host.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+There are specific routes that are accessible to create, edit and view the api.<br>
